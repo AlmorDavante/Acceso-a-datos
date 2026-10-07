@@ -1,0 +1,9 @@
+----- Formulario de Matriculación -----
+Nombre y Apellidos: Alejandro Morales
+Email: ale@gmail.com
+Fecha de Nacimiento: 19/08/2004
+Género: Masculino
+Titulación de Acceso: FP Grado Medio
+Observaciones:
+Holaaaa
+---------------------------------------
