@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (equipos+)>
+    <!ATTLIST equipos location CDATA #REQUIRED>
+    <!ELEMENT equipos (equipo+)>
+    <!ELEMENT equipo (nombre, jugadores)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT jugadores (jugador+)>
+    <!ELEMENT jugador (nombreJu, posicion, dorsal)>
+    <!ELEMENT nombreJu (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT dorsal (#PCDATA)>
+]>
+
+<futbol>
+    <equipos location="España">
+        <equipo>
+            <nombre>Real Madrid</nombre>
+            <jugadores>
+                <jugador>
+                    <nombreJu>Cristiano Ronaldo</nombreJu>
+                    <posicion>Delantero</posicion>
+                    <dorsal>9</dorsal>
+                </jugador>
+                <jugador>
+                    <nombreJu>Luka Modrić</nombreJu>
+                    <posicion>Medio</posicion>
+                    <dorsal>10</dorsal>
+                </jugador>
+            </jugadores>
+        </equipo>
+        <equipo>
+            <nombre>Barcelona</nombre>
+            <jugadores>
+                <jugador>
+                    <nombreJu>Lionel Messi</nombreJu>
+                    <posicion>Delantero</posicion>
+                    <dorsal>10</dorsal>
+                </jugador>
+                <jugador>
+                    <nombreJu>Marc-André ter Stegen</nombreJu>
+                    <posicion>Portero</posicion>
+                    <dorsal>1</dorsal>
+                </jugador>
+            </jugadores>
+        </equipo>
+    </equipos>
+    <equipos location="Inglaterra">
+        <equipo>
+            <nombre>Liverpool</nombre>
+            <jugadores>
+                <jugador>
+                    <nombreJu>Mo Salah</nombreJu>
+                    <posicion>Delantero</posicion>
+                    <dorsal>11</dorsal>
+                </jugador>
+                <jugador>
+                    <nombreJu>Alisson Becker</nombreJu>
+                    <posicion>Portero</posicion>
+                    <dorsal>1</dorsal>
+                </jugador>
+            </jugadores>
+        </equipo>
+        <equipo>
+            <nombre>Manchester United</nombre>
+            <jugadores>
+                <jugador>
+                    <nombreJu>Bruno Fernandes</nombreJu>
+                    <posicion>Medio</posicion>
+                    <dorsal>18</dorsal>
+                </jugador>
+                <jugador>
+                    <nombreJu>David de Gea</nombreJu>
+                    <posicion>Portero</posicion>
+                    <dorsal>1</dorsal>
+                </jugador>
+            </jugadores>
+        </equipo>
+    </equipos>
+</futbol>
