@@ -8,9 +8,10 @@ public class Ejemplo7 {
         try {
             int resultado = num1/num2;
             System.out.println(resultado);
-            
+
         } catch (ArithmeticException e) {
             System.out.println("Error aritmetico: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 }
